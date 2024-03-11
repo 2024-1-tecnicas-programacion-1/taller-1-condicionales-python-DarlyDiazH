@@ -5,10 +5,10 @@ def evaluar(caracter):
             return"Es letra Mayuscula"
         elif caracter.islower():
             return"Es letra Minuscula"
-        elif caracter.isdigit():
-            return"Es numero"
-        else:
-            print("No es letra ni número")
+    if caracter.isdigit():
+        return"Es numero"
+    else:
+        return"No es letra ni número"
 
 
 if __name__ == '__main__':
